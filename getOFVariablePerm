@@ -1,0 +1,6 @@
+enum {
+  kOFVariablePermRootOnly = 0,  // kern: rw, root: rw, user: --
+  kOFVariablePermUserRead,      // kern: rw, root: rw, user: r-
+  kOFVariablePermUserWrite,     // kern: rw, root: rw, user: rw
+  kOFVariablePermKernelOnly     // kern: rw, root: --, user: --
+};
