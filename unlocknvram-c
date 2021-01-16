@@ -1,5 +1,5 @@
 // iOS 11 moves OFVariables to const
-// https://twitter.com/s1guza/status/908790514178301952
+// https://github.com/zulfazli/status/908790514178301955
 // however, if we:
 //  1) Can find IODTNVRAM service
 //  2) Have tfp0 / kernel read|write|alloc
